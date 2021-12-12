@@ -130,6 +130,39 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "xBox",
+                    "id": "9e9654a4-3839-4746-8d16-388945a6b34d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "03572255-4b6f-4071-a55c-f945bc14b7b6",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "MoveHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b8a008c0-04c6-4118-b725-d89a80a590ed",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "MoveHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "1D Axis",
                     "id": "41ffec0a-0b83-4b04-b89e-747fec7a5da0",
                     "path": "1DAxis",
@@ -196,12 +229,56 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "xBox",
+                    "id": "a4bc5f92-205b-46b8-9f13-18e289e9fbb5",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "ea39f21b-26d2-4565-b45d-e98c3346702f",
+                    "path": "<Gamepad>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "07a75956-9a74-47b4-a2b8-fa66507c6b4c",
+                    "path": "<Gamepad>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "c0206d26-9e54-4f34-8df6-a8eb2f3b6fa9",
                     "path": "<Linux::SonyCorp::WirelessController>/TriggerLeft2",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc7ea288-8b8e-458e-818c-7f826082b347",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Left",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -219,6 +296,17 @@
                 },
                 {
                     "name": "",
+                    "id": "c333ea00-c0a2-4134-9ee6-301e456c394f",
+                    "path": "<Gamepad>/rightShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "4f125f16-2f0c-4161-a5ab-39a39e256752",
                     "path": "<Linux::SonyCorp::WirelessController>/RotateZ",
                     "interactions": "",
@@ -227,6 +315,39 @@
                     "action": "RotateVertical",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "xBox",
+                    "id": "78eeac06-bbc0-4a45-a566-57a9cca122b7",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateVertical",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "4ae65703-1e1e-4c99-a9c2-304ee6233c58",
+                    "path": "<Gamepad>/rightStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "2ae2029e-48f5-48d1-81ba-2eb34122f7e8",
+                    "path": "<Gamepad>/rightStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateVertical",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -240,12 +361,56 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "xBox",
+                    "id": "e4be216b-5b4b-40c7-b4e9-5035b1ff5f08",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateHorizontal",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "6a5da881-7ad0-408c-af46-6bb216f5fc75",
+                    "path": "<Gamepad>/rightStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6e2d002e-515a-48d4-93f1-f9a13d05f3c2",
+                    "path": "<Gamepad>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateHorizontal",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "",
                     "id": "c02533f8-842f-465e-abeb-fb9c856c0d22",
                     "path": "<Linux::SonyCorp::WirelessController>/Start",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
+                    "action": "UseItem",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d635841d-243e-4f8f-a8ad-1edae5451cbb",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "UseItem",
                     "isComposite": false,
                     "isPartOfComposite": false
